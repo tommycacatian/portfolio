@@ -1,0 +1,24 @@
+
+.rotateimg {
+  max-height: 100%;
+   height: 100%;
+             -webkit-transition: all 0.5s ease 0s;
+              -moz-transition: all 0.5s ease 0s;
+              -o-transition: all 0.5s ease 0s;
+              -ms-transition: all 0.5s ease 0s;
+              transition: all 0.5s ease 0s;
+              cursor:pointer;
+          }
+
+          .rotateimg:hover {
+            max-height: 100%;
+   height: 100%;
+              -webkit-transform: rotate(540deg);
+              -moz-transform: rotate(540deg);
+              -ms-transform: rotate(540deg);
+              -o-transform: rotate(540deg);
+              transform: rotate(540deg);
+          }
+          .nonDraggableImage{
+    -webkit-user-drag: none;
+}

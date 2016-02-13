@@ -1,0 +1,48 @@
+
+    .proglang{
+    height:350px;
+    width:260px;
+    background: url('../acimg/aboutimage/proglang.jpg') !important;
+    margin:auto; /*position the [div] on the center*/
+  }
+  /*this is the hover event trigger*/
+  .proglang:hover {
+    cursor:pointer; 
+    background: url('../acimg/aboutimage/proglang.gif') !important;
+  }
+    .progapps{
+    height:350px;
+    width:260px;
+    background: url('../acimg/aboutimage/progapps.jpg') !important;
+    margin:auto; /*position the [div] on the center*/
+  }
+  /*this is the hover event trigger*/
+  .progapps:hover {
+    cursor:pointer; 
+    background: url('../acimg/aboutimage/progapps.gif') !important;
+  }
+
+.music{
+    height:350px;
+    width:260px;
+    background: url('../acimg/aboutimage/musica.jpg') !important;
+    margin:auto; /*position the [div] on the center*/
+  }
+  /*this is the hover event trigger*/
+  .music:hover {
+    cursor:pointer; 
+    background: url('../acimg/aboutimage/musica.gif') !important;
+  }
+
+
+.arts{
+    height:350px;
+    width:260px;
+    background: url('../acimg/aboutimage/artwork.png') !important;
+    margin:auto; /*position the [div] on the center*/
+  }
+  /*this is the hover event trigger*/
+  .arts:hover {
+    cursor:pointer; 
+    background: url('../acimg/aboutimage/artwork.gif') !important;
+  }

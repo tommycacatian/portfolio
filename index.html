@@ -1,0 +1,89 @@
+
+<html >
+<title>Anthony Cacatian</title>
+<head>
+
+	<link href="tommy/acimg/aclogo.ico" rel="icon" type="image/ico" />
+	<link rel="stylesheet" href="angular-1.5.0-beta.2/docs/components/bootstrap-3.1.1/css/bootstrap.min.css">
+
+<script src="tommy/assets/js/1.11.3jquery.min.js"></script>
+	<script src="angular-1.5.0-beta.2/angular.min.js"></script>
+	<script src="angular-1.5.0-beta.2/angular-route.min.js"></script>
+	<script src="tommy/app/navbarapp.js"></script>
+
+	<link rel="stylesheet" href="tommy/css/acimg.css">
+	<link rel="stylesheet" href="tommy/css/aboutimg.css">
+	<link rel="stylesheet" href="tommy/css/homeimg.css">
+		<link rel="stylesheet" href="tommy/css/overlay.css">
+				<link rel="stylesheet" href="tommy/css/album.css">
+</head>
+
+<!--bgcolor="#75839B"-->
+
+<body  ng-app="RoutingApp"  style="background-color:#07070C;">
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+    $( "#loader" ).delay(1000).fadeOut(400, function(){
+        $( "#your-page" ).fadeIn(400);
+
+    });  
+});
+
+</script>
+<div id="loader">
+        <h4 class="whitefont" align="center" style="margin-top:300px"><img src="tommy/acimg/acloading.gif"  style="height:25%" ><br><br><img src="tommy/acimg/nowloading.gif"  style="height:5%" >
+        </h4>
+    </div>
+
+
+	<script src="angular-1.5.0-beta.2/docs/components/bootstrap-3.1.1/js/bootstrap.min.js"></script>
+	<script src="angular-1.5.0-beta.2/docs/components/jquery-2.1.1/jquery.min.js"></script>
+	<script src="angular-1.5.0-beta.2/docs/components/angular-animate.min.js"></script>
+<script src="tommy/assets/js/canvasjs/canvasjs.min.js"></script>	
+<script src="tommy/js/chartContent.js"></script>
+
+<div id="your-page" style="display:none;">
+<!-- Static navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" style="background: url('acimg/darkred.jpg') !important;" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarcollapse">
+	<span class="sr-only">toggle navigation</span>
+	<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	
+</button>	
+
+<a class="navbar-brand" href="#home"><img src="tommy/acimg/aclogored.png" class="rotateimg">anthony<b>cacatian</b></a>
+</div>
+
+
+<div class="navbar-collapse collapse" id="navbarcollapse">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+
+
+</div>
+</div>
+
+	
+	<div ng-view >
+	</div>
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+

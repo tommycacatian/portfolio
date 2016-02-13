@@ -1,0 +1,10 @@
+.main{
+   background: url('../acimg/achome2.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-width: 100%;
+  min-height: 85%;
+  
+  }
+  
