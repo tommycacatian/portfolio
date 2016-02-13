@@ -1,9 +1,24 @@
+
    function canvasPrograms() {
-       var chart1 = new CanvasJS.Chart("chartContainer1", {
-			backgroundColor: "rgba(0,0,0,0.4)",
+
+   			var w = window.innerWidth
+			|| document.documentElement.clientWidth
+			|| document.body.clientWidth;
+			var w1=0;
+			if(w<760){
+				w1=w-80;	
+			}else{
+				w1="550";
+			}
 			
-                        animationEnabled: true,
-			axisX:{
+
+   	          var chart1 = new CanvasJS.Chart("chartContainer1", {
+			backgroundColor: "rgba(0,0,0,0.4)",
+			responsive: true,
+		    maintainAspectRatio: true,
+            animationEnabled: true,
+            width: w1,
+            axisX:{
 				interval: 1,
 				gridThickness: 0,
 				labelFontSize: 10,
@@ -62,14 +77,31 @@
 		});
 
 chart1.render();
+
     }
 
 
   function mycanvas() {
+
+   			var w = window.innerWidth
+			|| document.documentElement.clientWidth
+			|| document.body.clientWidth;
+			var w1=0;
+			if(w<760){
+				w1=w-80;	
+			}else{
+				w1="550";
+			}
+			
+
+
        var chart = new CanvasJS.Chart("chartContainer", {
 			backgroundColor: "rgba(0,0,0,0.4)",
 			
+			 responsive: true,
+    			maintainAspectRatio: true,
                         animationEnabled: true,
+                        width: w1,
 			axisX:{
 				interval: 1,
 				gridThickness: 0,
@@ -118,6 +150,9 @@ chart1.render();
 			}
 			
 			]
+
+
+			
 		});
 
 chart.render();
