@@ -4,7 +4,6 @@ function mainAlt() {
 			|| document.body.clientWidth;
 			var w1=0;
 			if(w<760){
-				document.getElementById("homediv").style.background = "black url('tommy/acimg/achomealt.png') no-repeat right top";	
+				document.getElementById("homediv").style.background = "black url('tommy/acimg/achomealt2.png') no-repeat right top fixed";	
 			}
-			
 }
