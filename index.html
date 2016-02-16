@@ -28,7 +28,7 @@
 jQuery(document).ready(function(){
     $( "#loader" ).delay(1000).fadeOut(400, function(){
         $( "#your-page" ).fadeIn(400);
-        mainAlt();
+       mainAlt();
     });  
 });
 
@@ -58,13 +58,13 @@ jQuery(document).ready(function(){
 	
 </button>	
 
-<a class="navbar-brand" href="#home"><img src="tommy/acimg/aclogored.png" class="rotateimg">anthony<b>cacatian</b></a>
+<a class="navbar-brand" href="#home" onClick="mainAlt()"><img src="tommy/acimg/aclogored.png" class="rotateimg">anthony<b>cacatian</b></a>
 </div>
 
 
 <div class="navbar-collapse collapse" id="navbarcollapse">
 <ul class="nav navbar-nav">
-<li ><a href="#home">Home</a></li>
+<li onClick="mainAlt()"><a href="#home" >Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul>
